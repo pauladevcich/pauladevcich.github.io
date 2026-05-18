@@ -226,6 +226,8 @@ body {
 ========================= */
 
 .main-content {
+  zoom: 0.95;
+
   flex: 1;
 
   padding: 50px 40px 50px 35px;
