@@ -1557,14 +1557,15 @@ footer {
 
   .main-content {
     width: 100%;
-    padding: 30px 20px;
-  }
+    max-width: 100%;
+    padding: 20px 14px;
+}
 
   .hero-section {
     display: flex;
     flex-direction: column;
     gap: 30px;
-
+    width: 100%;
     padding: 20px 0;
   }
 
@@ -1619,7 +1620,12 @@ footer {
     margin-top: -30px;
     margin-left: auto;
   }
-
+.about-content,
+.info-card,
+.project-card,
+.bottom-card {
+    width: 100%;
+}
   .projects-grid,
   .bottom-grid,
   .lower-grid {
