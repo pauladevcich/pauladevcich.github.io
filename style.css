@@ -230,7 +230,7 @@ body {
 
   width: 100%;
 
-  max-width: 1250px;
+  max-width: 1200px;
 
   padding: 50px 40px 50px 35px;
 }
@@ -383,7 +383,7 @@ padding: 70px 20px 40px 60px;
 /* TITLE */
 
 .hero-title {
-  font-size: 4.3rem;
+  font-size: 3.8rem;
 
   line-height: 1.05;
 
@@ -433,7 +433,7 @@ padding: 70px 20px 40px 60px;
 /* DESCRIPTION */
 
 .hero-description {
-  font-size: 1rem;
+  font-size: 0.8rem;
 
   line-height: 1.8;
 
@@ -548,7 +548,7 @@ padding: 70px 20px 40px 60px;
 .hero-image-card img {
   width: 100%;
 
-  max-width: 390px;
+  max-width: 360px;
 
   aspect-ratio: 4 / 5;
 
