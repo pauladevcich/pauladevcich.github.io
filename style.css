@@ -1553,9 +1553,118 @@ footer {
 
 @media (max-width: 800px) {
 
-  body {
-    overflow-x: hidden;
+  /* ===== SIDEBAR ===== */
+
+  .sidebar {
+    display: none;
   }
+
+  .mobile-menu-btn {
+    display: none;
+  }
+
+  /* ===== MAIN ===== */
+
+  .main-content {
+    padding: 25px 20px;
+  }
+
+  /* ===== HERO ===== */
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 58px;
+    line-height: 0.95;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  /* ===== BUTTONS ===== */
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero-buttons a {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* ===== IMAGE ===== */
+
+  .hero-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 280px;
+    max-width: 100%;
+    border-radius: 30px;
+  }
+
+  /* ===== LOCATION CARD ===== */
+
+  .location-card {
+    position: static;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  /* ===== PROJECTS ===== */
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* ===== DOCUMENTS / REFERENCES ===== */
+
+  .documents-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* ===== TITLES ===== */
+
+  h2.section-title {
+    font-size: 52px;
+    line-height: 1;
+  }
+
+  /* ===== CONTACT FOOTER ===== */
+
+  .mobile-contact-footer {
+    background: #020b2d;
+    padding: 30px 20px;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .mobile-contact-footer a,
+  .mobile-contact-footer p {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+}
 
   /* =========================
      MOBILE MENU BUTTON
