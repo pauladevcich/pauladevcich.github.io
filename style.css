@@ -67,9 +67,10 @@ body {
 
   padding: 40px 26px;
 
-  position: sticky;
-
-  top: 0;
+  position: fixed;
+   
+   top: 0;
+   left: 0;
 
   display: flex;
 
@@ -229,6 +230,8 @@ body {
   flex: 1;
 
   padding: 50px 40px 50px 35px;
+   
+   margin-left: 260px;
 }
 
 /* =========================
@@ -1528,6 +1531,9 @@ footer {
     min-height: auto;
     position: relative;
   }
+   .main-content {
+  margin-left: 0;
+}
 
   .hero-section {
     grid-template-columns: 1fr;
