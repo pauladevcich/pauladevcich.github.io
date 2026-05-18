@@ -1553,23 +1553,29 @@ footer {
 
 @media (max-width: 800px) {
 
+  body {
+    overflow-x: hidden;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
   .main-content {
+    zoom: 1;
     padding: 20px;
   }
 
   .hero-section {
-    grid-template-columns: 1fr;
-    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
+    padding-top: 20px;
   }
 
+  .hero-left,
   .hero-right {
-    min-width: 100%;
-  }
-
-  .hero-image-card img {
-    max-width: 100%;
-    border-radius: 28px;
+    width: 100%;
   }
 
   .hero-title {
@@ -1580,37 +1586,33 @@ footer {
 
   .hero-description {
     max-width: 100%;
-    font-size: 0.95rem;
+    font-size: 1rem;
+    line-height: 1.7;
   }
 
   .hero-buttons {
+    display: flex;
     flex-direction: column;
-    align-items: stretch;
+    gap: 15px;
   }
 
   .primary-btn,
   .secondary-btn {
     width: 100%;
+    justify-content: center;
   }
 
-  .projects-grid {
-    grid-template-columns: 1fr;
+  .hero-image-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 28px;
   }
 
-  .project-card {
-    padding: 26px;
-  }
-
-  .project-card p {
-    text-align: left;
-  }
-
-  .about-content {
-    padding: 28px;
-  }
-
-  #about .about-content p {
-    text-align: left;
+  .hero-info-card {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    margin-top: -40px;
   }
 
   .section-header h2,
@@ -1619,7 +1621,41 @@ footer {
     line-height: 1;
   }
 
+  .about-content {
+    padding: 25px;
+  }
+
+  .about-content p,
+  #about .about-content p {
+    text-align: left;
+    line-height: 1.8;
+  }
+
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .project-card {
+    width: 100%;
+    padding: 25px;
+  }
+
+  .project-card p {
+    text-align: left;
+  }
+
   .bottom-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .skills-grid,
+  .interests-grid,
+  .documents-grid,
+  .references-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1630,16 +1666,6 @@ footer {
     transform: none;
     justify-content: center;
     margin-top: 10px;
-  }
-
-  .hero-info-card {
-    right: 0;
-    bottom: -10px;
-    transform: scale(0.9);
-  }
-
-  .sidebar {
-    display: none;
   }
 
 }
