@@ -1660,7 +1660,53 @@ footer {
 
   z-index: 999;
 }
+.mobile-contact-bar {
 
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 14px;
+
+  background: linear-gradient(
+    180deg,
+    #06122b 0%,
+    #081935 100%
+  );
+
+  padding: 28px 24px;
+
+  border-radius: 24px;
+
+  margin-top: 40px;
+
+  width: 100%;
+}
+
+.mobile-contact-bar p {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  color: white;
+
+  font-size: 0.95rem;
+}
+
+.mobile-contact-bar a {
+
+  color: white;
+
+  text-decoration: none;
+}
+
+.mobile-contact-bar i {
+
+  color: #8f95ff;
+}
 }
 
 /* =========================
