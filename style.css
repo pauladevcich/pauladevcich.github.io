@@ -226,11 +226,9 @@ body {
 ========================= */
 
 .main-content {
-  zoom: 0.93;
-
   flex: 1;
-
   padding: 50px 40px 50px 35px;
+  max-width: 1500px;
 }
 
 /* =========================
@@ -1551,6 +1549,10 @@ footer {
   }
 }
 
+.mobile-contact-bar {
+  display: none;
+}
+
 @media (max-width: 800px) {
 
   .sidebar {
@@ -1647,15 +1649,16 @@ footer {
 
   .language-switch {
 
-  position: absolute;
+  position: relative;
 
-  top: -10px;
-  right: 20px;
+  top: auto;
+  right: auto;
+  left: auto;
 
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: -10px;
+  margin-bottom: 20px;
 
-  justify-content: flex-end;
+  justify-content: flex-start;
 
   z-index: 999;
 }
