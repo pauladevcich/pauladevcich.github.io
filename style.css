@@ -435,7 +435,7 @@ padding: 70px 20px 40px 60px;
 .hero-description {
   font-size: 1rem;
 
-  line-height: 1.8;
+  line-height: 1.5;
 
   color: #475569;
 
@@ -548,7 +548,7 @@ padding: 70px 20px 40px 60px;
 .hero-image-card img {
   width: 100%;
 
-  max-width: 360px;
+  max-width: 340px;
 
   aspect-ratio: 4 / 5;
 
