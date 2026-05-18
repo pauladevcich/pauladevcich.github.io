@@ -1647,16 +1647,15 @@ footer {
 
   .language-switch {
 
-  position: relative;
+  position: absolute;
 
-  top: auto;
-  right: auto;
-  left: auto;
+  top: -10px;
+  right: 20px;
 
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
 
-  justify-content: flex-start;
+  justify-content: flex-end;
 
   z-index: 999;
 }
