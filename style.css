@@ -50,9 +50,9 @@ body {
 ========================= */
 
 .sidebar {
-  width: 260px;
+  width: 220px;
 
-  min-width: 200px;
+  min-width: 220px;
 
   flex-shrink: 0;
 
@@ -106,8 +106,8 @@ body {
 ========================= */
 
 .logo {
-  width: 70px;
-  height: 70px;
+  width: 58px;
+  height: 58px;
 
   border-radius: 22px;
 
@@ -121,7 +121,7 @@ body {
 
   color: #8f95ff;
 
-  font-size: 2rem;
+  font-size: 1.6rem;
 
   font-weight: 800;
 
@@ -152,7 +152,7 @@ body {
 
   border-radius: 16px;
 
-  font-size: 0.98rem;
+  font-size: 0.9rem;
 
   transition: 1s ease;
 }
@@ -214,7 +214,7 @@ body {
 
   text-decoration: none;
 
-  font-size: 0.98rem;
+  font-size: 0.8rem;
 
   font-weight: 500;
 
@@ -1614,6 +1614,8 @@ footer {
 
 .sidebar-nav i {
   width: 18px;
+
+   font-size: 0.9rem;
 
   text-align: center;
 
