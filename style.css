@@ -230,7 +230,7 @@ body {
 
   width: 100%;
 
-  max-width: 1200px;
+  max-width: 1100px;
 
   padding: 50px 40px 50px 35px;
 }
@@ -287,7 +287,7 @@ padding: 70px 20px 40px 60px;
 
   gap: 10px;
 
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 
   color: #334155;
 
@@ -371,7 +371,7 @@ padding: 70px 20px 40px 60px;
 ========================= */
 
 .hero-intro {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 
   font-weight: 700;
 
@@ -383,7 +383,7 @@ padding: 70px 20px 40px 60px;
 /* TITLE */
 
 .hero-title {
-  font-size: 3.8rem;
+  font-size: 3.5rem;
 
   line-height: 1.05;
 
@@ -419,13 +419,13 @@ padding: 70px 20px 40px 60px;
 
   font-weight: 600;
 
-  font-size: 1rem;
+  font-size: 0.8rem;
 
   margin-bottom: 18px;
 }
 
 .hero-badge i {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 
   color: #6366f1;
 }
@@ -433,7 +433,7 @@ padding: 70px 20px 40px 60px;
 /* DESCRIPTION */
 
 .hero-description {
-  font-size: 1rem;
+  font-size: 0.8rem;
 
   line-height: 1.5;
 
@@ -476,7 +476,7 @@ padding: 70px 20px 40px 60px;
 
   font-weight: 600;
 
-  font-size: 0.95rem;
+  font-size: 0.8rem;
 
   text-decoration: none;
 
