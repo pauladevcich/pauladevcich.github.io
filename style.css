@@ -1559,9 +1559,6 @@ footer {
     display: none;
   }
 
-  .mobile-menu-btn {
-    display: none;
-  }
 
   /* ===== MAIN ===== */
 
@@ -1715,9 +1712,7 @@ footer {
     overflow-y: auto;
   }
 
-  .sidebar.mobile-open {
-    left: 0;
-  }
+
 
   .sidebar-contact {
     margin-top: 40px;
