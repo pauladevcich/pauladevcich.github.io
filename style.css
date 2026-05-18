@@ -1652,19 +1652,21 @@ footer {
 
   .language-switch {
 
-  position: relative;
+    position: relative !important;
 
-  top: auto;
-  right: auto;
-  left: auto;
+    top: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
 
-  margin-top: -60px;
-  margin-bottom: 20px;
+    margin-bottom: 25px;
 
-  justify-content: flex-start;
+    display: flex;
 
-  z-index: 999;
+    justify-content: flex-start;
+
+    z-index: 999;
 }
+   
 .mobile-contact-bar {
 
     display: flex;
