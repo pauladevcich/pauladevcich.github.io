@@ -1553,11 +1553,11 @@ footer {
 
 @media (max-width: 800px) {
 
-  /* ===== SIDEBAR ===== */
-
   .sidebar {
     display: none;
   }
+
+}
 
 
   /* ===== MAIN ===== */
