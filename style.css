@@ -1557,20 +1557,84 @@ footer {
     overflow-x: hidden;
   }
 
-  .sidebar {
-    display: none;
+  /* =========================
+     MOBILE MENU BUTTON
+  ========================= */
+
+  .mobile-menu-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 9999;
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: #5f5cf1;
+    color: white;
+
+    font-size: 1.2rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
+  /* =========================
+     SIDEBAR MOBILE
+  ========================= */
+
+  .sidebar {
+
+    position: fixed;
+    top: 0;
+    left: -240px;
+
+    width: 220px;
+    height: 100vh;
+
+    z-index: 9998;
+
+    transition: 0.3s ease;
+
+    padding-top: 90px;
+
+    overflow-y: auto;
+  }
+
+  .sidebar.mobile-open {
+    left: 0;
+  }
+
+  .sidebar-contact {
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  /* =========================
+     MAIN CONTENT
+  ========================= */
 
   .main-content {
-    zoom: 1;
-    padding: 20px;
+
+    width: 100%;
+    padding: 90px 20px 30px 20px;
   }
 
+  /* =========================
+     HERO SECTION
+  ========================= */
+
   .hero-section {
+
     display: flex;
     flex-direction: column;
+
     gap: 30px;
-    padding-top: 20px;
   }
 
   .hero-left,
@@ -1579,75 +1643,131 @@ footer {
   }
 
   .hero-title {
+
     font-size: 3rem;
-    line-height: 1;
+    line-height: 1.05;
+
     white-space: normal;
   }
 
   .hero-description {
+
     max-width: 100%;
+
     font-size: 1rem;
-    line-height: 1.7;
+    line-height: 1.8;
+
+    text-align: left;
   }
 
   .hero-buttons {
+
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    flex-wrap: wrap;
+
+    gap: 12px;
   }
 
   .primary-btn,
   .secondary-btn {
-    width: 100%;
+
+    flex: 1;
+    min-width: 140px;
+
     justify-content: center;
   }
 
   .hero-image-card img {
+
     width: 100%;
     height: auto;
+
     border-radius: 28px;
   }
 
   .hero-info-card {
+
     position: relative;
+
     right: auto;
     bottom: auto;
+
     margin-top: -40px;
+    margin-left: auto;
+    width: fit-content;
   }
+
+  /* =========================
+     LANGUAGE SWITCH
+  ========================= */
+
+  .language-switch {
+
+    position: relative !important;
+
+    top: auto !important;
+    right: auto !important;
+
+    transform: none !important;
+
+    margin-top: 10px;
+
+    justify-content: center;
+  }
+
+  /* =========================
+     TITLES
+  ========================= */
 
   .section-header h2,
   #about .section-header h2 {
-    font-size: 3rem;
+
+    font-size: 2.8rem;
     line-height: 1;
   }
 
+  /* =========================
+     ABOUT
+  ========================= */
+
   .about-content {
+
     padding: 25px;
   }
 
-  .about-content p,
-  #about .about-content p {
+  .about-content p {
+
     text-align: left;
-    line-height: 1.8;
+    line-height: 1.9;
   }
 
+  /* =========================
+     PROJECTS
+  ========================= */
+
   .projects-grid {
-    display: grid;
+
     grid-template-columns: 1fr;
     gap: 25px;
   }
 
   .project-card {
+
     width: 100%;
     padding: 25px;
   }
 
   .project-card p {
+
     text-align: left;
   }
 
+  /* =========================
+     BOTTOM SECTIONS
+  ========================= */
+
   .bottom-grid {
-    display: grid;
+
     grid-template-columns: 1fr;
     gap: 25px;
   }
@@ -1656,56 +1776,10 @@ footer {
   .interests-grid,
   .documents-grid,
   .references-grid {
+
     grid-template-columns: 1fr;
   }
 
-  .language-switch {
-    position: relative;
-    top: 0;
-    right: 0;
-    transform: none;
-    justify-content: center;
-    margin-top: 10px;
-  }
-
-}
-
-
-
-/* =========================
-   ICONS
-========================= */
-
-.sidebar-nav a {
-  display: flex;
-
-  align-items: center;
-
-  gap: 14px;
-}
-
-.sidebar-nav i {
-  width: 18px;
-
-   font-size: 0.9rem;
-
-  text-align: center;
-
-  opacity: 0.9;
-}
-
-.sidebar-contact p {
-  display: flex;
-
-  align-items: center;
-
-  gap: 12px;
-}
-
-.sidebar-contact i {
-  color: #8f95ff;
-
-  width: 16px;
 }
 
 /* =========================
