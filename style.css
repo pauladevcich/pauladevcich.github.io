@@ -1519,38 +1519,26 @@ footer {
 
 @media (max-width: 1100px) {
 
-  .layout {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    width: 100%;
-    min-height: auto;
-    position: relative;
-  }
-
   .hero-section {
     grid-template-columns: 1fr;
-    padding: 40px 30px;
     gap: 40px;
+
+    padding: 60px 30px;
   }
 
   .hero-title {
-    font-size: 3rem;
+    font-size: 3.5rem;
+
     white-space: normal;
   }
 
-  .hero-buttons {
-    flex-wrap: wrap;
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .bottom-grid {
     grid-template-columns: 1fr;
   }
-}
-
-.mobile-contact-bar {
-  display: none;
 }
 
 @media (max-width: 800px) {
